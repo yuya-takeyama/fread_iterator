@@ -16,6 +16,6 @@
         "phpunit/phpunit": "*"
     },
     "autoload": {
-        "psr-4": { "Yuyat\\FileByteIterator": "src/" }
+        "psr-4": { "Yuyat\\FileByteIterator\\": "src/" }
     }
 }

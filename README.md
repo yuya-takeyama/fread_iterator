@@ -15,7 +15,8 @@ Usage
 ```php
 <?php
 $bufferSize = 1024 * 16;
-$file = new Yuyat\FileByteIterator('image.jpg', 'rb', $bufferSize);
+$file = new Yuyat\FileByteIterator('image.jpg', 'rb');
+$file->setBufferSize($bufferSize);
 $dest = new SplFileObject('image_copy.png', 'wb');
 
 foreach ($file as $bytes) {
