@@ -1,0 +1,21 @@
+{
+    "name": "yuyat/file_byte_iterator",
+    "description": "Wraps SplFileObject/SplTempFileObject and provides fread() based iterator",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yuya Takeyama",
+            "email": "sign.of.the.wolf.pentagram@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">= 5.5.11"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    },
+    "autoload": {
+        "psr-4": { "Yuyat\\FileByteIterator": "src/" }
+    }
+}
