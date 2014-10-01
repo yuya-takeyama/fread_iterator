@@ -1,5 +1,5 @@
 {
-    "name": "yuyat/file_byte_iterator",
+    "name": "yuyat/fread_iterator",
     "description": "Wraps SplFileObject/SplTempFileObject and provides fread() based iterator",
     "license": "MIT",
     "authors": [
@@ -16,6 +16,6 @@
         "phpunit/phpunit": "*"
     },
     "autoload": {
-        "psr-4": { "Yuyat\\FileByteIterator\\": "src/" }
+        "psr-4": { "yuyat\\FreadIterator\\": "src/" }
     }
 }

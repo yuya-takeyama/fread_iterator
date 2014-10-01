@@ -1,5 +1,5 @@
 <?php
-namespace Yuyat\FileByteIterator;
+namespace yuyat\FreadIterator;
 
 class File extends \SplFileObject
 {
